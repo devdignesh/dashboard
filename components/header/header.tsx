@@ -21,13 +21,12 @@ const Header = () => {
             </div>
             <div className="hidden lg:block h-full">
               <div className="flex flex-row h-full  items-center">
-                <HeaderItem >Compass</HeaderItem>
-                <HeaderItem>Explore</HeaderItem>
-                <HeaderItem active isNew>
-                  Academy
-                </HeaderItem>
-                <HeaderItem>NFTs</HeaderItem>
-                <HeaderItem>For projects</HeaderItem>
+                <HeaderItem href="/#" text="compass"/> 
+                <HeaderItem href="/#" text="explore"/> 
+                <HeaderItem href="/academy" active isNew text="academy"/>
+                
+                <HeaderItem href="/#" text="NFTs"/>
+                <HeaderItem href="/#" text="for Project"/>
               </div>
             </div>
           </div>

@@ -47,7 +47,9 @@ const HeroSection = () => {
               )}
             </div>
 
-            {pathname === `/academy/essentials` ? (
+            {pathname === `/academy/alpha-hub` ? (
+              ''
+            ) : (
               <div className="">
                 <div className="flex flex-col justify-center items-center mt-4 ">
                   <p className="text-lg text-zinc-500">
@@ -77,8 +79,6 @@ const HeroSection = () => {
                   </Button>
                 </div>
               </div>
-            ) : (
-              ""
             )}
           </div>
         </div>
